@@ -1,59 +1,25 @@
-# system ignore
-.DS_Store
-Thumbs.db
-thumbs.db
+/target/
+!.mvn/wrapper/maven-wrapper.jar
 
-# maven/gradle ignore
-target
-*.war
-
-# svn ignore
-*.svn
-
-# Eclipse/MyEclipse ignore
-.settings/
-.project
+### STS ###
+.apt_generated
 .classpath
-.myeclipse/
-.mymetadata
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
-# IDEA ignore
-.idea/
-*.ipr
-*.iml
+### IntelliJ IDEA ###
+.idea
 *.iws
+*.iml
+*.ipr
 
-# test ignore
-test-output
-**/Tomcat/work/**
-*.class
-*.pyc
-
-# temp ignore
-*.log
-*.cache
-*.diff
-*.patch
-*.tmp
-*.java~
-*.properties~
-*.xml~
-
-# bin ignore
-*.avi
-*.mov
-*.rmvb
-*.mkv
-*.exe
-*.rar
-*.tgz
-*.tar
-*.gz
-*.7z
-
-
-
-rebel.xml
-snadk-sso/sso-client-api/src/main/java/snsoft/bas/util/EncoderUtils.java
-cfg.zip
-boot-run/zph/
+### NetBeans ###
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
